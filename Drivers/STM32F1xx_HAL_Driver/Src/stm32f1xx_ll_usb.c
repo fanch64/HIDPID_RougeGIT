@@ -1842,7 +1842,18 @@ HAL_StatusTypeDef USB_EPStartXfer(USB_TypeDef *USBx , USB_EPTypeDef *ep)
 {
   uint16_t pmabuffer = 0;
   uint32_t len = ep->xfer_len;
-  
+ 
+			// for debug
+//	if (len < 10){
+//		printf("len: %d ",len);
+//		printf("ep->xfer_buff: ");
+//	  for (int i = 0; i < len; i ++) {
+//			printf(" %02x", ep->xfer_buff[i]);
+//    }
+//    printf("\r\n");
+//	}
+	//-------------------
+	
   /* IN endpoint */
   if (ep->is_in == 1)
   {
@@ -1879,6 +1890,7 @@ HAL_StatusTypeDef USB_EPStartXfer(USB_TypeDef *USBx , USB_EPTypeDef *ep)
         PCD_SET_EP_DBUF0_CNT(USBx, ep->num, ep->is_in, len);
         pmabuffer = ep->pmaaddr0;
       }
+
       USB_WritePMA(USBx, ep->xfer_buff, pmabuffer, len);
       PCD_FreeUserBuffer(USBx, ep->num, ep->is_in);
     }

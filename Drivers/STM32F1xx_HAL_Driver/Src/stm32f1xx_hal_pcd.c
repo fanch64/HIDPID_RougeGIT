@@ -1258,7 +1258,7 @@ static HAL_StatusTypeDef PCD_EP_ISR_Handler(PCD_HandleTypeDef *hpcd)
           USB_ReadPMA(hpcd->Instance, (uint8_t*)hpcd->Setup ,ep->pmaadress , ep->xfer_count);       
           /* SETUP bit kept frozen while CTR_RX = 1*/ 
           PCD_CLEAR_RX_EP_CTR(hpcd->Instance, PCD_ENDP0); 
-          
+//          printf("xfer_count: %d", ep->xfer_count);
           /* Process SETUP Packet*/
           HAL_PCD_SetupStageCallback(hpcd);
         }

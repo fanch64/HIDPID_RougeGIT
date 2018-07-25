@@ -50,10 +50,10 @@
   * @{
   */ 
 #define CUSTOM_HID_EPIN_ADDR                 0x81
-#define CUSTOM_HID_EPIN_SIZE                 0x02
+#define CUSTOM_HID_EPIN_SIZE                 0x40//0x02 //02
 
 #define CUSTOM_HID_EPOUT_ADDR                0x01
-#define CUSTOM_HID_EPOUT_SIZE                0x02
+#define CUSTOM_HID_EPOUT_SIZE                0x40//0x02 //02
 
 #define USB_CUSTOM_HID_CONFIG_DESC_SIZ       41
 #define USB_CUSTOM_HID_DESC_SIZ              9
@@ -70,6 +70,25 @@
 
 #define CUSTOM_HID_REQ_SET_REPORT            0x09
 #define CUSTOM_HID_REQ_GET_REPORT            0x01
+
+typedef enum _HID_REQUESTS
+{
+  GET_REPORT = 		1,
+  GET_IDLE,	//		2
+  GET_PROTOCOL,//	3
+
+  SET_REPORT = 		9,
+  SET_IDLE,			//10
+  SET_PROTOCOL	//11
+} HID_REQUESTS;
+
+	typedef enum _HID_REPORTS
+{
+  HID_INPUT   = 1,
+  HID_OUTPUT  = 2,
+  HID_FEATURE = 3
+} HID_REPORTS;		
+
 /**
   * @}
   */ 
@@ -78,6 +97,19 @@
 /** @defgroup USBD_CORE_Exported_TypesDefinitions
   * @{
   */
+//	// fanch added
+//typedef union
+//{
+//  uint16_t w;
+//  struct BW
+//  {
+//    uint8_t bb1;
+//    uint8_t bb0;
+//  }
+//  bw;
+//}	 uint16_t_uint8_t;
+//	//eofa
+
 typedef enum
 {
   CUSTOM_HID_IDLE = 0,
@@ -85,13 +117,13 @@ typedef enum
 }
 CUSTOM_HID_StateTypeDef; 
 
+// interface structure
 typedef struct _USBD_CUSTOM_HID_Itf
 {
   uint8_t                  *pReport;
   int8_t (* Init)          (void);
   int8_t (* DeInit)        (void);
   int8_t (* OutEvent)      (uint8_t, uint8_t );   
-
 }USBD_CUSTOM_HID_ItfTypeDef;
 
 typedef struct
@@ -102,8 +134,7 @@ typedef struct
   uint32_t             AltSetting;
   uint32_t             IsReportAvailable;  
   CUSTOM_HID_StateTypeDef     state;  
-}
-USBD_CUSTOM_HID_HandleTypeDef; 
+}USBD_CUSTOM_HID_HandleTypeDef; 
 /**
   * @}
   */ 
@@ -139,6 +170,7 @@ uint8_t USBD_CUSTOM_HID_SendReport (USBD_HandleTypeDef *pdev,
 
 uint8_t  USBD_CUSTOM_HID_RegisterInterface  (USBD_HandleTypeDef   *pdev, 
                                              USBD_CUSTOM_HID_ItfTypeDef *fops);
+
 
 /**
   * @}

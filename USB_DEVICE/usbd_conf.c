@@ -641,7 +641,13 @@ USBD_StatusTypeDef USBD_LL_Transmit(USBD_HandleTypeDef *pdev, uint8_t ep_addr, u
 {
   HAL_StatusTypeDef hal_status = HAL_OK;
   USBD_StatusTypeDef usb_status = USBD_OK;
-
+//	if (size < 10){
+//		printf("LL_T_Buff_0: ");
+//	  for (int i = 0; i < size; i ++) {
+//			printf(" %02x", pbuf[i]);
+//    }
+//    printf("\r\n");
+//	}
   hal_status = HAL_PCD_EP_Transmit(pdev->pData, ep_addr, pbuf, size);
      
   switch (hal_status) {

@@ -267,7 +267,13 @@ USBD_StatusTypeDef USBD_LL_SetupStage(USBD_HandleTypeDef *pdev, uint8_t *psetup)
   
   pdev->ep0_state = USBD_EP0_SETUP;
   pdev->ep0_data_len = pdev->request.wLength;
-  
+  //// added but unsure usefull----------------------------------------------------------
+//uint8_t *pdata;
+//  if(pdev->request.wLength>0)
+//  {
+//      USBD_CtlContinueRx (pdev, pdata, pdev->request.wLength);
+//  }
+		//-------------------------------------------------------------------------------------
   switch (pdev->request.bmRequest & 0x1F) 
   {
   case USB_REQ_RECIPIENT_DEVICE:   

@@ -91,6 +91,9 @@ static void USBD_GetConfig(USBD_HandleTypeDef *pdev ,
 static void USBD_GetStatus(USBD_HandleTypeDef *pdev , 
                            USBD_SetupReqTypedef *req);
 
+static void USBD_GetFeature(USBD_HandleTypeDef *pdev , 
+                            USBD_SetupReqTypedef *req);
+
 static void USBD_SetFeature(USBD_HandleTypeDef *pdev , 
                             USBD_SetupReqTypedef *req);
 
@@ -142,8 +145,11 @@ USBD_StatusTypeDef  USBD_StdDevReq (USBD_HandleTypeDef *pdev , USBD_SetupReqType
   case USB_REQ_GET_STATUS:                                  
     USBD_GetStatus (pdev , req);
     break;
-    
-    
+  
+  case USB_REQ_GET_FEATURE:   
+    USBD_GetFeature (pdev , req);    
+    break;
+	
   case USB_REQ_SET_FEATURE:   
     USBD_SetFeature (pdev , req);    
     break;
@@ -637,6 +643,25 @@ static void USBD_GetStatus(USBD_HandleTypeDef *pdev ,
   }
 }
 
+/**
+* @brief  USBD_GetFeature
+*         Handle Get device feature request
+* @param  pdev: device instance
+* @param  req: usb request
+* @retval status
+*/
+static void USBD_GetFeature(USBD_HandleTypeDef *pdev , 
+                            USBD_SetupReqTypedef *req)
+{
+
+  if (req->wValue == USB_FEATURE_REMOTE_WAKEUP)
+  {
+    pdev->dev_remote_wakeup = 1;  
+    pdev->pClass->Setup (pdev, req);   
+    USBD_CtlSendStatus(pdev);
+  }
+
+}
 
 /**
 * @brief  USBD_SetFeature
@@ -697,6 +722,13 @@ static void USBD_ClrFeature(USBD_HandleTypeDef *pdev ,
 
 void USBD_ParseSetupRequest(USBD_SetupReqTypedef *req, uint8_t *pdata)
 {
+	#ifdef DEBUGUSB
+				printf("setupPacket: "); 
+			for (int i = 0; i < 8; i ++) {
+				printf(" %02x", pdata[i]);
+			}
+			printf("\r\n");
+	#endif
   req->bmRequest     = *(uint8_t *)  (pdata);
   req->bRequest      = *(uint8_t *)  (pdata +  1);
   req->wValue        = SWAPBYTE      (pdata +  2);
