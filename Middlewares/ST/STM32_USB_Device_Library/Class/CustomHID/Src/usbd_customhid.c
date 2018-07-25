@@ -50,8 +50,8 @@
 #include "usbd_desc.h"
 #include "usbd_ctlreq.h"
 
-#include "usbd_custom_hid_if.h"
-#include "main.h"
+	#include "usbd_custom_hid_if.h"
+	#include "main.h"
 /** @addtogroup STM32_USB_DEVICE_LIBRARY
   * @{
   */
@@ -106,6 +106,7 @@ static uint8_t  *USBD_CUSTOM_HID_GetDeviceQualifierDesc (uint16_t *length);
 static uint8_t  USBD_CUSTOM_HID_DataIn (USBD_HandleTypeDef *pdev, uint8_t epnum);
 
 static uint8_t  USBD_CUSTOM_HID_DataOut (USBD_HandleTypeDef *pdev, uint8_t epnum);
+
 static uint8_t  USBD_CUSTOM_HID_EP0_RxReady (USBD_HandleTypeDef  *pdev);
 
 
@@ -170,8 +171,8 @@ __ALIGN_BEGIN static uint8_t USBD_CUSTOM_HID_CfgDesc[USB_CUSTOM_HID_CONFIG_DESC_
   0x00,         /*bCountryCode: Hardware target country*/
   0x01,         /*bNumDescriptors: Number of CUSTOM_HID class descriptors to follow*/
   0x22,         /*bDescriptorType*/
-  LOBYTE(USBD_CUSTOM_HID_REPORT_DESC_SIZE),/*wItemLength: Total length of Report descriptor*/
-  HIBYTE(USBD_CUSTOM_HID_REPORT_DESC_SIZE),/*wItemLength: Total length of Report descriptor*/
+		LOBYTE(USBD_CUSTOM_HID_REPORT_DESC_SIZE),/*wItemLength: Total length of Report descriptor*/
+		HIBYTE(USBD_CUSTOM_HID_REPORT_DESC_SIZE),/*wItemLength: Total length of Report descriptor*/
   /******************** Descriptor of Custom HID endpoints ********************/
   /* 27 */
   0x07,          /*bLength: Endpoint Descriptor size*/
@@ -205,8 +206,8 @@ __ALIGN_BEGIN static uint8_t USBD_CUSTOM_HID_Desc[USB_CUSTOM_HID_DESC_SIZ] __ALI
   0x00,         /*bCountryCode: Hardware target country*/
   0x01,         /*bNumDescriptors: Number of CUSTOM_HID class descriptors to follow*/
   0x22,         /*bDescriptorType*/
-  LOBYTE(USBD_CUSTOM_HID_REPORT_DESC_SIZE),/*wItemLength: Total length of Report descriptor*/
-  HIBYTE(USBD_CUSTOM_HID_REPORT_DESC_SIZE),/*wItemLength: Total length of Report descriptor*/
+		LOBYTE(USBD_CUSTOM_HID_REPORT_DESC_SIZE),/*wItemLength: Total length of Report descriptor*/
+		HIBYTE(USBD_CUSTOM_HID_REPORT_DESC_SIZE),/*wItemLength: Total length of Report descriptor*/
 };
 
 /* USB Standard Device Descriptor */
