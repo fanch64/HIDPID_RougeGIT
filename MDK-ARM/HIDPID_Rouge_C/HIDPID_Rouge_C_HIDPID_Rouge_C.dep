@@ -1,1045 +1,0 @@
-Dependencies for Project 'HIDPID_Rouge_C', Target 'HIDPID_Rouge_C': (DO NOT MODIFY !)
-F (startup_stm32f103xb.s)(0x5B5232CC)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list startup_stm32f103xb.lst --xref -o hidpid_rouge_c\startup_stm32f103xb.o --depend hidpid_rouge_c\startup_stm32f103xb.d)
-F (../Core/Src/main.c)(0x5B56B69D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\main.o --omf_browse hidpid_rouge_c\main.crf --depend hidpid_rouge_c\main.d)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Core/Inc/dma.h)(0x5B5232C8)
-I (../Core/Inc/usart.h)(0x5B52C6B8)
-I (../USB_DEVICE/usb_device.h)(0x5B5232C8)
-I (../Core/Inc/gpio.h)(0x5B5232C8)
-I (../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h)(0x5B580503)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x5B51DBC0)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x5B51DBC0)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x5B51DBC0)
-I (../USB_DEVICE/usbd_custom_hid_if.h)(0x5B556114)
-F (../Core/Src/gpio.c)(0x5B5232C8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\gpio.o --omf_browse hidpid_rouge_c\gpio.crf --depend hidpid_rouge_c\gpio.d)
-I (../Core/Inc/gpio.h)(0x5B5232C8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../Core/Src/dma.c)(0x5B5232C8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\dma.o --omf_browse hidpid_rouge_c\dma.crf --depend hidpid_rouge_c\dma.d)
-I (../Core/Inc/dma.h)(0x5B5232C8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../Core/Src/usart.c)(0x5B5232C8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\usart.o --omf_browse hidpid_rouge_c\usart.crf --depend hidpid_rouge_c\usart.d)
-I (../Core/Inc/usart.h)(0x5B52C6B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-I (../Core/Inc/gpio.h)(0x5B5232C8)
-I (../Core/Inc/dma.h)(0x5B5232C8)
-F (../Core/Src/stm32f1xx_it.c)(0x5B55E454)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\stm32f1xx_it.o --omf_browse hidpid_rouge_c\stm32f1xx_it.crf --depend hidpid_rouge_c\stm32f1xx_it.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_it.h)(0x5B5232CA)
-F (../Core/Src/stm32f1xx_hal_msp.c)(0x5B5232CA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\stm32f1xx_hal_msp.o --omf_browse hidpid_rouge_c\stm32f1xx_hal_msp.crf --depend hidpid_rouge_c\stm32f1xx_hal_msp.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../USB_DEVICE/usb_device.c)(0x5B5232C8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\usb_device.o --omf_browse hidpid_rouge_c\usb_device.crf --depend hidpid_rouge_c\usb_device.d)
-I (../USB_DEVICE/usb_device.h)(0x5B5232C8)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x5B51DBC0)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x5B51DBC0)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x5B51DBC0)
-I (../USB_DEVICE/usbd_desc.h)(0x5B5232C8)
-I (../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h)(0x5B580503)
-I (../USB_DEVICE/usbd_custom_hid_if.h)(0x5B556114)
-F (../USB_DEVICE/usbd_conf.c)(0x5B56CE85)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\usbd_conf.o --omf_browse hidpid_rouge_c\usbd_conf.crf --depend hidpid_rouge_c\usbd_conf.d)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x5B51DBC0)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x5B51DBC0)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x5B51DBC0)
-I (../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h)(0x5B580503)
-F (../USB_DEVICE/usbd_desc.c)(0x5B52C8A4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\usbd_desc.o --omf_browse hidpid_rouge_c\usbd_desc.crf --depend hidpid_rouge_c\usbd_desc.d)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x5B51DBC0)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x5B51DBC0)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x5B51DBC0)
-I (../USB_DEVICE/usbd_desc.h)(0x5B5232C8)
-F (../USB_DEVICE/usbd_custom_hid_if.c)(0x5B5769F9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\usbd_custom_hid_if.o --omf_browse hidpid_rouge_c\usbd_custom_hid_if.crf --depend hidpid_rouge_c\usbd_custom_hid_if.d)
-I (../USB_DEVICE/usbd_custom_hid_if.h)(0x5B556114)
-I (../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h)(0x5B580503)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x5B51DBC0)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x5B51DBC0)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x5B51DBC0)
-I (../Core/Inc/usart.h)(0x5B52C6B8)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x5B51DC0C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\stm32f1xx_hal_gpio_ex.o --omf_browse hidpid_rouge_c\stm32f1xx_hal_gpio_ex.crf --depend hidpid_rouge_c\stm32f1xx_hal_gpio_ex.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c)(0x5B55E550)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\stm32f1xx_hal_pcd.o --omf_browse hidpid_rouge_c\stm32f1xx_hal_pcd.crf --depend hidpid_rouge_c\stm32f1xx_hal_pcd.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c)(0x5B51DC0C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\stm32f1xx_hal_pcd_ex.o --omf_browse hidpid_rouge_c\stm32f1xx_hal_pcd_ex.crf --depend hidpid_rouge_c\stm32f1xx_hal_pcd_ex.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c)(0x5B576DAB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\stm32f1xx_ll_usb.o --omf_browse hidpid_rouge_c\stm32f1xx_ll_usb.crf --depend hidpid_rouge_c\stm32f1xx_ll_usb.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x5B51DC0E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\stm32f1xx_hal_tim.o --omf_browse hidpid_rouge_c\stm32f1xx_hal_tim.crf --depend hidpid_rouge_c\stm32f1xx_hal_tim.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x5B51DC0E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\stm32f1xx_hal_tim_ex.o --omf_browse hidpid_rouge_c\stm32f1xx_hal_tim_ex.crf --depend hidpid_rouge_c\stm32f1xx_hal_tim_ex.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x5B51DC0E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\stm32f1xx_hal_uart.o --omf_browse hidpid_rouge_c\stm32f1xx_hal_uart.crf --depend hidpid_rouge_c\stm32f1xx_hal_uart.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x5B51DC0C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\stm32f1xx_hal.o --omf_browse hidpid_rouge_c\stm32f1xx_hal.crf --depend hidpid_rouge_c\stm32f1xx_hal.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x5B51DC0C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\stm32f1xx_hal_rcc.o --omf_browse hidpid_rouge_c\stm32f1xx_hal_rcc.crf --depend hidpid_rouge_c\stm32f1xx_hal_rcc.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x5B51DC0C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\stm32f1xx_hal_rcc_ex.o --omf_browse hidpid_rouge_c\stm32f1xx_hal_rcc_ex.crf --depend hidpid_rouge_c\stm32f1xx_hal_rcc_ex.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x5B51DC0C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\stm32f1xx_hal_gpio.o --omf_browse hidpid_rouge_c\stm32f1xx_hal_gpio.crf --depend hidpid_rouge_c\stm32f1xx_hal_gpio.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x5B51DC0C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\stm32f1xx_hal_dma.o --omf_browse hidpid_rouge_c\stm32f1xx_hal_dma.crf --depend hidpid_rouge_c\stm32f1xx_hal_dma.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x5B51DC0C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\stm32f1xx_hal_cortex.o --omf_browse hidpid_rouge_c\stm32f1xx_hal_cortex.crf --depend hidpid_rouge_c\stm32f1xx_hal_cortex.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x5B51DC0C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\stm32f1xx_hal_pwr.o --omf_browse hidpid_rouge_c\stm32f1xx_hal_pwr.crf --depend hidpid_rouge_c\stm32f1xx_hal_pwr.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x5B51DC0C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\stm32f1xx_hal_flash.o --omf_browse hidpid_rouge_c\stm32f1xx_hal_flash.crf --depend hidpid_rouge_c\stm32f1xx_hal_flash.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x5B51DC0C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\stm32f1xx_hal_flash_ex.o --omf_browse hidpid_rouge_c\stm32f1xx_hal_flash_ex.crf --depend hidpid_rouge_c\stm32f1xx_hal_flash_ex.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../Core/Src/system_stm32f1xx.c)(0x5B4DAD92)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\system_stm32f1xx.o --omf_browse hidpid_rouge_c\system_stm32f1xx.crf --depend hidpid_rouge_c\system_stm32f1xx.d)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c)(0x5B580503)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\usbd_core.o --omf_browse hidpid_rouge_c\usbd_core.crf --depend hidpid_rouge_c\usbd_core.d)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x5B51DBC0)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x5B51DBC0)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x5B51DBC0)
-F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c)(0x5B55E578)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\usbd_ctlreq.o --omf_browse hidpid_rouge_c\usbd_ctlreq.crf --depend hidpid_rouge_c\usbd_ctlreq.d)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x5B51DBC0)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x5B51DBC0)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x5B51DBC0)
-F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c)(0x5B51DBC0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\usbd_ioreq.o --omf_browse hidpid_rouge_c\usbd_ioreq.crf --depend hidpid_rouge_c\usbd_ioreq.d)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x5B51DBC0)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x5B51DBC0)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x5B51DBC0)
-F (../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.c)(0x5B580503)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_HIDPID_Rouge_C-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o hidpid_rouge_c\usbd_customhid.o --omf_browse hidpid_rouge_c\usbd_customhid.crf --depend hidpid_rouge_c\usbd_customhid.d)
-I (../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h)(0x5B580503)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x5B51DBC0)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x5B580503)
-I (../USB_DEVICE/usbd_conf.h)(0x5B52378E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5B51DBBE)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x5B51DBC0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B51DBC0)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5B51DBBE)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5B51DC0C)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x5B5232CA)
-I (../Core/Inc/main.h)(0x5B55D658)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5B51DC0C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5B51DC0C)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x5B51DBC0)
-I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x5B51DBC0)
-I (../USB_DEVICE/usbd_desc.h)(0x5B5232C8)
-I (../USB_DEVICE/usbd_custom_hid_if.h)(0x5B556114)
