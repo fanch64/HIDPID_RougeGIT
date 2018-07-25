@@ -78,14 +78,7 @@
   */
 
 /* USER CODE BEGIN EXPORTED_DEFINES */
-#define SET_EFFECT_REPORT_SIZE 16	//16bytes, mais on utilise pas les 2 premiers
-																		//des type specific params
-																		//passer a 16 avec les 2 derniers pointant vers parameters1 et2
-#define ALLOCATED_BLOCK_MEM 0x01f4 //(500d)
-#define MAX_BLOCK_INDEX 16
-#define MaxContiguousEffects 8
-#define PARAMETERS_BASE_ADRESS pUSB_POOL+(SET_EFFECT_REPORT_SIZE*MAX_BLOCK_INDEX)
-#define PARAMETER_BLOC_SIZE 7	//taille du plus gros bloc de parametre sans report_id ni effect block index
+
 /* USER CODE END EXPORTED_DEFINES */
 
 /**
@@ -98,14 +91,7 @@
   */
 
 /* USER CODE BEGIN EXPORTED_TYPES */
-			extern unsigned char bindex;
-			extern uint8_t Global_Gain;
-			extern uint16_t FREE_MEM;
-			extern uint8_t id_create;
-			extern uint16_t USED_BLOCKS;		//bit adressable 1=used 0=free
-			
-//uint8_t *Joystick_GetReport_Feature(uint16_t Length);
-//uint8_t *Joystick_SetReport_Feature(uint16_t Length);
+
 /* USER CODE END EXPORTED_TYPES */
 
 /**
@@ -134,7 +120,7 @@
 extern USBD_CUSTOM_HID_ItfTypeDef USBD_CustomHID_fops_FS;
 
 /* USER CODE BEGIN EXPORTED_VARIABLES */
-static int8_t USBD_CUSTOM_HID_SendReport_FS(uint8_t *, uint16_t );
+
 /* USER CODE END EXPORTED_VARIABLES */
 
 /**
@@ -147,7 +133,7 @@ static int8_t USBD_CUSTOM_HID_SendReport_FS(uint8_t *, uint16_t );
   */
 
 /* USER CODE BEGIN EXPORTED_FUNCTIONS */
-void EP1_OUT_Callback(uint8_t rep_idx);
+
 /* USER CODE END EXPORTED_FUNCTIONS */
 
 /**

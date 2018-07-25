@@ -54,16 +54,11 @@
 /* Includes ------------------------------------------------------------------*/
 
 /* USER CODE BEGIN Includes */
-#include "stm32f1xx_hal.h"
-//#include "usart.h"
-//#include "usbd_customhid.h"
-#include "usbd_def.h"
+
 /* USER CODE END Includes */
 
 /* Private define ------------------------------------------------------------*/
 
-#define LED_Pin GPIO_PIN_13
-#define LED_GPIO_Port GPIOC
 #define BTN1_IT_Pin GPIO_PIN_4
 #define BTN1_IT_GPIO_Port GPIOB
 #define BTN1_IT_EXTI_IRQn EXTI4_IRQn
@@ -82,31 +77,7 @@
  #define USE_FULL_ASSERT    1U 
 
 /* USER CODE BEGIN Private defines */
-#define DEBUGUSB
 
-    // HID Wheel
-  struct WheelHID_t {
-      int steering;
-      unsigned int accelerator;
-      unsigned int brake;
-      unsigned int clutch;
-			unsigned int handbrake;
-			unsigned char boutons;
-		  unsigned char dummy;
-  };
-
-extern	struct WheelHID_t strucWheelHID;
-extern unsigned char sendrep2;
-	// HID std report
-extern unsigned char In_Report_1_Buffer[15];
-	// HID status report
-extern unsigned char In_Report_2_Buffer[3];
-extern uint8_t HID_SetReport_Value[5];
-extern uint8_t Request;                                // completed request at status stage	
-uint8_t *Joystick_GetReport_Feature(uint16_t Length);	
-//uint8_t *Joystick_GetReport_Feature(uint16_t Length,USBD_SetupReqTypedef *req);
-uint8_t *Joystick_SetReport_Feature(uint16_t Length);
-void printBits(size_t const size, void const * const ptr);
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

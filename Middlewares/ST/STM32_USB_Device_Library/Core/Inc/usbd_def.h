@@ -82,9 +82,7 @@
 
 #define  USB_REQ_GET_STATUS                             0x00
 #define  USB_REQ_CLEAR_FEATURE                          0x01
-#define  USB_REQ_GET_FEATURE                            0x02	//future use
 #define  USB_REQ_SET_FEATURE                            0x03
-#define  USB_REQ_GET_ADDRESS                            0x04	//future use
 #define  USB_REQ_SET_ADDRESS                            0x05
 #define  USB_REQ_GET_DESCRIPTOR                         0x06
 #define  USB_REQ_SET_DESCRIPTOR                         0x07
@@ -164,16 +162,15 @@ typedef struct _Device_cb
   uint8_t  (*Init)             (struct _USBD_HandleTypeDef *pdev , uint8_t cfgidx);
   uint8_t  (*DeInit)           (struct _USBD_HandleTypeDef *pdev , uint8_t cfgidx);
  /* Control Endpoints*/
-
-  uint8_t  (*Setup)            (struct _USBD_HandleTypeDef *pdev , USBD_SetupReqTypedef  *req);  	// This callback is called to handle the specific class setup requests. 
-  uint8_t  (*EP0_TxSent)       (struct _USBD_HandleTypeDef *pdev ); 	// This callback is called when the send status is finished 
-  uint8_t  (*EP0_RxReady)      (struct _USBD_HandleTypeDef *pdev );  		// This callback is called when the receive status is finished. 
+  uint8_t  (*Setup)            (struct _USBD_HandleTypeDef *pdev , USBD_SetupReqTypedef  *req);  
+  uint8_t  (*EP0_TxSent)       (struct _USBD_HandleTypeDef *pdev );    
+  uint8_t  (*EP0_RxReady)      (struct _USBD_HandleTypeDef *pdev );  
   /* Class Specific Endpoints*/
-  uint8_t  (*DataIn)           (struct _USBD_HandleTypeDef *pdev , uint8_t epnum); //called to perform the data in stage relative to the non-control endpoints. 
-  uint8_t  (*DataOut)          (struct _USBD_HandleTypeDef *pdev , uint8_t epnum); //called to perform the data out stage relative to the non-control endpoints. 
-  uint8_t  (*SOF)              (struct _USBD_HandleTypeDef *pdev); 								 // This callback is called when a SOF interrupt is received; this callback can be used to synchronize some processes with the SOF. 
-  uint8_t  (*IsoINIncomplete)  (struct _USBD_HandleTypeDef *pdev , uint8_t epnum); // This callback is called when the last isochronous IN transfer is incomplete
-  uint8_t  (*IsoOUTIncomplete) (struct _USBD_HandleTypeDef *pdev , uint8_t epnum); // This callback is called when the last isochronous OUT transfer is incomplete
+  uint8_t  (*DataIn)           (struct _USBD_HandleTypeDef *pdev , uint8_t epnum);   
+  uint8_t  (*DataOut)          (struct _USBD_HandleTypeDef *pdev , uint8_t epnum); 
+  uint8_t  (*SOF)              (struct _USBD_HandleTypeDef *pdev); 
+  uint8_t  (*IsoINIncomplete)  (struct _USBD_HandleTypeDef *pdev , uint8_t epnum); 
+  uint8_t  (*IsoOUTIncomplete) (struct _USBD_HandleTypeDef *pdev , uint8_t epnum);   
 
   uint8_t  *(*GetHSConfigDescriptor)(uint16_t *length); 
   uint8_t  *(*GetFSConfigDescriptor)(uint16_t *length);   
