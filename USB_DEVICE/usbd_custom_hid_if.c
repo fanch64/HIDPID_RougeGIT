@@ -141,31 +141,6 @@ __ALIGN_BEGIN static uint8_t CUSTOM_HID_ReportDesc_FS[USBD_CUSTOM_HID_REPORT_DES
 {
   /* USER CODE BEGIN 0 */
 
-	/*
-	//joystick rouge ok, size:44
-	  0x05, 0x01,                    // USAGE_PAGE (Generic Desktop)
-    0x09, 0x04,                    // USAGE (Joystick)
-    0xa1, 0x01,                    // COLLECTION (Application)
-    0x09, 0x33,                    //   USAGE (X)
-    0x09, 0x34,                    //   USAGE (X)
-    0x09, 0x35,                    //   USAGE (X)
-    0x15, 0x00,                    //   LOGICAL_MINIMUM (0)
-    0x26, 0xff, 0x07,              //     LOGICAL_MAXIMUM (2047)
-    0x75, 0x10,                    // REPORT_SIZE (16)
-    0x95, 0x03,                    //   REPORT_COUNT (3)
-    0x81, 0x02,                    //   INPUT (Data,Var,Abs)
-    0x05, 0x09,                    //   USAGE_PAGE (Button)
-    0x19, 0x01,                    //   USAGE_MINIMUM (No Buttons Pressed)
-    0x29, 0x40,                    //   USAGE_MAXIMUM (Button 64)
-    0x15, 0x00,                    //     LOGICAL_MINIMUM (0)
-    0x25, 0x01,                    //   LOGICAL_MAXIMUM (1)
-		0x35, 0x00,				        //    Physical Minimum 0
-		0x45, 0x01,        				//    Physical Maximum 1
-    0x75, 0x01,                    //     REPORT_SIZE (1)
-    0x95, 0x40,                    //     REPORT_COUNT (64)
-    0x81, 0x02,                    //   INPUT (Data,Ary,Abs)
-		*/
-		
 //working volant descriptor size: 1294
 
 	0x05,0x01,  //    Usage Page Generic Desktop
@@ -911,6 +886,7 @@ static int8_t CUSTOM_HID_OutEvent_FS(uint8_t event_idx, uint8_t state)
 	USBD_CUSTOM_HID_HandleTypeDef     *hhid = (USBD_CUSTOM_HID_HandleTypeDef*)hUsbDeviceFS.pClassData; 
 
 if (	hhid->IsReportAvailable == 1){
+printf("CUSTOM_HID_OutEvent_FS\r\n");
 	uint32_t lastSize0 = USBD_LL_GetRxDataSize(&hUsbDeviceFS, 0);
 	uint32_t lastSize1 = USBD_LL_GetRxDataSize(&hUsbDeviceFS, 1);
 	if (lastSize0 != 0)

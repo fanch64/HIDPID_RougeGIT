@@ -429,10 +429,11 @@ static uint8_t  USBD_CUSTOM_HID_Setup (USBD_HandleTypeDef *pdev,
 										//*HID_SetReport_Value = *hhid->Report_buf;
 //										printf("ReqLen: %i\r\n", req->wLength);
 //										printf("ReqwVal: 0x%02X\r\n", (req->wValue)&0xff);
-										USBD_LL_FlushEP(pdev, 0);	
-										hhid->IsReportAvailable = 0;
-										hhid->state = CUSTOM_HID_IDLE;
-										printf("lastSiz: %i\r\n", lastSize0);
+										//peut etre pour ca qu'on voit pas le reportavailable
+//										USBD_LL_FlushEP(pdev, 0);	
+//										hhid->IsReportAvailable = 0;
+//										hhid->state = CUSTOM_HID_IDLE;
+//										printf("lastSiz: %i\r\n", lastSize0);
 
 									}			
 //								default:
