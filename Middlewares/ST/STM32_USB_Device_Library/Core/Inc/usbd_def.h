@@ -169,6 +169,7 @@ typedef struct _Device_cb
   uint8_t  (*EP0_TxSent)       (struct _USBD_HandleTypeDef *pdev ); 	// This callback is called when the send status is finished 
   uint8_t  (*EP0_RxReady)      (struct _USBD_HandleTypeDef *pdev );  		// This callback is called when the receive status is finished. 
   /* Class Specific Endpoints*/
+  uint8_t  (*EP1_RxReady)      (struct _USBD_HandleTypeDef *pdev );  		// This callback is called when the receive status is finished. 
   uint8_t  (*DataIn)           (struct _USBD_HandleTypeDef *pdev , uint8_t epnum); //called to perform the data in stage relative to the non-control endpoints. 
   uint8_t  (*DataOut)          (struct _USBD_HandleTypeDef *pdev , uint8_t epnum); //called to perform the data out stage relative to the non-control endpoints. 
   uint8_t  (*SOF)              (struct _USBD_HandleTypeDef *pdev); 								 // This callback is called when a SOF interrupt is received; this callback can be used to synchronize some processes with the SOF. 

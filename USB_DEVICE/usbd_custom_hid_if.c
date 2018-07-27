@@ -885,29 +885,30 @@ static int8_t CUSTOM_HID_OutEvent_FS(uint8_t event_idx, uint8_t state)
 
 	USBD_CUSTOM_HID_HandleTypeDef     *hhid = (USBD_CUSTOM_HID_HandleTypeDef*)hUsbDeviceFS.pClassData; 
 
-if (	hhid->IsReportAvailable == 1){
-printf("CUSTOM_HID_OutEvent_FS\r\n");
-	uint32_t lastSize0 = USBD_LL_GetRxDataSize(&hUsbDeviceFS, 0);
-	uint32_t lastSize1 = USBD_LL_GetRxDataSize(&hUsbDeviceFS, 1);
-	if (lastSize0 != 0)
-	{
-		memcpy(Receive_Buffer,hhid->Report_buf,lastSize0);
-		USBD_LL_FlushEP(&hUsbDeviceFS, 0);	
-		hhid->IsReportAvailable = 0;
-		hhid->state = CUSTOM_HID_IDLE;
+//if (	hhid->IsReportAvailable == 1){
 
-		printf("RecBuff_0: ");
-	  for (int i = 0; i < lastSize0; i ++) {
-			printf(" %02x", Receive_Buffer[i]);
-    }
-    printf("\r\n");
-		}
+printf("CUSTOM_HID_OutEvent_FS\r\n");
+//	uint32_t lastSize0 = USBD_LL_GetRxDataSize(&hUsbDeviceFS, 0);
+	uint32_t lastSize1 = USBD_LL_GetRxDataSize(&hUsbDeviceFS, 1);
+//	if (lastSize0 != 0)
+//	{
+//		memcpy(Receive_Buffer,hhid->Report_buf,lastSize0);
+////		USBD_LL_FlushEP(&hUsbDeviceFS, 0);	
+////		hhid->IsReportAvailable = 0;
+////		hhid->state = CUSTOM_HID_IDLE;
+
+//		printf("RecBuff_0: ");
+//	  for (int i = 0; i < lastSize0; i ++) {
+//			printf(" %02x", Receive_Buffer[i]);
+//    }
+//    printf("\r\n");
+//		}
 	if (lastSize1 != 0)
 	{
 		memcpy(Receive_Buffer,hhid->Report_buf,lastSize1);
-		USBD_LL_FlushEP(&hUsbDeviceFS, 1);	
-		hhid->IsReportAvailable = 0;
-		hhid->state = CUSTOM_HID_IDLE;
+//		USBD_LL_FlushEP(&hUsbDeviceFS, 1);	
+//		hhid->IsReportAvailable = 0;
+//		hhid->state = CUSTOM_HID_IDLE;
 		
 		printf("RecBuff_1: ");
 	  for (int i = 0; i < lastSize1; i ++) {
@@ -916,7 +917,7 @@ printf("CUSTOM_HID_OutEvent_FS\r\n");
     printf("\r\n");
 	
 		EP1_OUT_Callback(hhid->Report_buf[0]);
-	}	
+	//}	
 
 }
   return (USBD_OK);
@@ -939,7 +940,7 @@ void EP1_OUT_Callback(uint8_t rep_idx)
 	uint8_t PIDDeviceControl = 0;
 //  nReceivedBytes = USB_SIL_Read(EP1_OUT, Receive_Buffer);
 	
-	printf("EP1_OUT, rep_idx: %i", rep_idx);
+	printf("EP1_OUT_Callback, rep_idx: %i => %02x\r\n", rep_idx, rep_idx);
 	switch (rep_idx)
 {
 	case 1: //Set Effect Report //SET_EFFECT_REPORT_SIZE:14bytes
@@ -1055,6 +1056,7 @@ void EP1_OUT_Callback(uint8_t rep_idx)
 		break;
 		case 0x0C: //PID Device Control //direct action
 			PIDDeviceControl = Receive_Buffer[1]; //1à6:
+		printf("PIDDeviceControl = %02x\r\n",PIDDeviceControl);
 // 			In_Report_2_Buffer[1] = 0;//{0x02 ,0x00, 0x00};
 // 			In_Report_2_Buffer[2] = 0;//{0x02 ,0x00, 0x00};
 			switch (PIDDeviceControl) {
@@ -1098,6 +1100,7 @@ void EP1_OUT_Callback(uint8_t rep_idx)
 // 					In_Report_2_Buffer[2] = 0x12;//, 0x12;
 // 				break;
 			}
+//			USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS,In_Report_2_Buffer,3);// sizeof(In_Report_2_Buffer));
 			sendrep2 = 1;
 			//Send_PID_State_Report();			
 		break;

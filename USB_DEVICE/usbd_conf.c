@@ -55,7 +55,7 @@
 #include "usbd_customhid.h"
 
 /* USER CODE BEGIN Includes */
-
+#include "usbd_custom_hid_if.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -153,6 +153,15 @@ void HAL_PCD_SetupStageCallback(PCD_HandleTypeDef *hpcd)
 void HAL_PCD_DataOutStageCallback(PCD_HandleTypeDef *hpcd, uint8_t epnum)
 {
   USBD_LL_DataOutStage((USBD_HandleTypeDef*)hpcd->pData, epnum, hpcd->OUT_ep[epnum].xfer_buff);
+//		if (epnum == 1){
+////	printf("HAL_PCD_DataOutStageCallback-EP1\r\n");
+//		printf("EPI_OUT_Report = ");
+//			for(int i= 0;i< sizeof(hpcd->OUT_ep[epnum].xfer_buff); i++){
+//				printf(" %02x", hpcd->OUT_ep[epnum].xfer_buff[i]);
+//			}
+//			printf("\r\n");
+//			EP1_OUT_Callback(hpcd->OUT_ep[epnum].xfer_buff[0]);
+//		}
 }
 
 /**

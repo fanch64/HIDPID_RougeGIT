@@ -722,13 +722,13 @@ static void USBD_ClrFeature(USBD_HandleTypeDef *pdev ,
 
 void USBD_ParseSetupRequest(USBD_SetupReqTypedef *req, uint8_t *pdata)
 {
-	#ifdef DEBUGUSB
-				printf("setupPacket: "); 
-			for (int i = 0; i < 8; i ++) {
-				printf(" %02x", pdata[i]);
-			}
-			printf("\r\n");
-	#endif
+//	#ifdef DEBUGUSB
+//				printf("setupPacket: "); 
+//			for (int i = 0; i < 8; i ++) {
+//				printf(" %02x", pdata[i]);
+//			}
+//			printf("\r\n");
+//	#endif
   req->bmRequest     = *(uint8_t *)  (pdata);
   req->bRequest      = *(uint8_t *)  (pdata +  1);
   req->wValue        = SWAPBYTE      (pdata +  2);
